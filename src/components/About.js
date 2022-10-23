@@ -1,4 +1,5 @@
 import React from "react";
+import proPic from "./proPic.png"
 
 export default function About() {
     return (
@@ -31,7 +32,7 @@ export default function About() {
               <img
                 className="object-cover object-center rounded"
                 alt="headshot"
-                src="/proPic.png"
+            src= {proPic}
               />
             </div>
           </div>

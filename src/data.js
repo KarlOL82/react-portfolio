@@ -1,35 +1,37 @@
+// import images from "../images";
+
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Console Blog",
+      subtitle: "Javascript, Handlebars, Express, MySQL, Sequelize, and Tailwinds CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "An online blog site for devs to learn from their peers and share their knowledge of the industry.",
+    //   image: {images},
+      link: "https://crimson-badger.herokuapp.com/",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Code Quiz",
+      subtitle: "Javascript, HTML, and CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+        "An in-browser quiz game with multiple choice questions and a scoreboard.",
+      image: "assets/startScreen.png",
+      link: "https://karlol82.github.io/code_quiz/score.html",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "@$trolabe",
+      subtitle: "Javascript, HTML, Bulma CSS, and 3rd Party APIs",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+        "An online travel tool that helps users find attractions at their chosen destination and also determine exchange rates.",
+      image: "assets/travelMoney.png",
+      link: "https://frozen-hamlet-33467.herokuapp.com/",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Regex Tutorial",
+      subtitle: "Regex and Markdown",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+        "Gist: A Markdown tutorial on the construction of a Regular Expression or Regex.",
+      image: "./src/assets/regex.png",
+      link: "https://gist.github.com/KarlOL82",
     },
   ];
 

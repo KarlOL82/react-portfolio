@@ -6,7 +6,7 @@ export const projects = [
       subtitle: "Javascript, Handlebars, Express, MySQL, Sequelize, and Tailwinds CSS",
       description:
         "An online blog site for devs to learn from their peers and share their knowledge of the industry.",
-    //   image: {images},
+       image: "./src/images/consoleBlog.png",
       link: "https://crimson-badger.herokuapp.com/",
     },
     {
@@ -15,7 +15,7 @@ export const projects = [
       description:
         "An in-browser quiz game with multiple choice questions and a scoreboard.",
       image: "assets/startScreen.png",
-      link: "https://karlol82.github.io/code_quiz/score.html",
+      link: "https://karlol82.github.io/code_quiz/index.html",
     },
     {
       title: "@$trolabe",

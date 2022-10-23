@@ -31,7 +31,7 @@ export default function About() {
               <img
                 className="object-cover object-center rounded"
                 alt="headshot"
-                src="./assets/proPic.png"
+                src="/proPic.png"
               />
             </div>
           </div>

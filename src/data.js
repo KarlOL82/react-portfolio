@@ -2,6 +2,8 @@ import consoleBlog from "./images/consoleBlog.png";
 import regex from "./images/regex.png";
 import startScreen from "./images/startScreen.png";
 import travelMoney from "./images/travelMoney.png";
+import dayPlanner from "./images/dayPlanner.png";
+import jate from "./images/jate.png";
 import cssLogo from "./images/cssLogo.svg";
 import jsLogo from "./images/jsLogo.svg";
 import htmlLogo from "./images/htmlLogo.svg";
@@ -44,6 +46,22 @@ export const projects = [
       "Gist: A Markdown tutorial on the construction of a Regular Expression or Regex.",
     image: regex,
     link: "https://gist.github.com/KarlOL82",
+  },
+  {
+    title: "Day Planner",
+    subtitle: "Javascript HTML and CSS",
+    description:
+      "An interactive day scheduler that allows the user to schedule events during each 1 hour block of the workday.",
+    image: dayPlanner,
+    link: "https://karlol82.github.io/day_planner/",
+  },
+  {
+    title: "Just Another Text Editor",
+    subtitle: "Javascript, PWA, Webpack, HTML and CSS",
+    description:
+      "An online text editor that can be used to record notes and code snippets in the browser or installed for offline use.",
+    image: jate,
+    link: "https://frozen-hamlet-33467.herokuapp.com/",
   },
 ];
 

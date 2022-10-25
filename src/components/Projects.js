@@ -1,11 +1,14 @@
 // import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import "./pattern.css"
+import githubLogo from "../images/githubLogo.svg";
+
 
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="pattern text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
@@ -13,10 +16,15 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Click on one of the images below to view the deployed Project.
+            For more projects, follow this link to
+            
+            
           </p>
+          <a href="https://github.com/KarlOL82?tab=repositories" className="text-indigo-400 leading-relaxed">
+            My Github Repositories
+          </a>
+          <img src={githubLogo} alt="Github" className="m-auto bg-white float-right my-3 w-12 h-12 rounded-xl"></img>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
@@ -26,7 +34,7 @@ export default function Projects() {
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt="Project Screenshot"
                   className="absolute inset-0 min-h-max h-full w-full object-cover object-center"
                   src={project.image}
                 />

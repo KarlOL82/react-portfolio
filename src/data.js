@@ -108,4 +108,4 @@ export const skills = [
   },
 ];
 
-export const testimonials = [];
+export const resume = [];

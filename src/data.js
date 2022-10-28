@@ -40,10 +40,10 @@ export const projects = [
     link: "https://karlol82.github.io/travel_money/index.html",
   },
   {
-    title: "Regex Tutorial",
+    title: "Gist: Regex Tutorial",
     subtitle: "Regex and Markdown",
     description:
-      "Gist: A Markdown tutorial on the construction of a Regular Expression or Regex.",
+      "A Markdown tutorial on the construction of a Regular Expression or Regex.",
     image: regex,
     link: "https://gist.github.com/KarlOL82",
   },

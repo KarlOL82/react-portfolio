@@ -39,13 +39,12 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
               <span><img src={githubLogo} alt="Github" className="bg-white float-right my-1 w-4 h-4"></img></span>GitHub
               </h2>
-              <a className="text-indigo-400 leading-relaxed" href="https://github.com/KarlOL82">
+              <a className="text-indigo-400 leading-relaxed my-3" href="https://github.com/KarlOL82">
               github.com/KarlOL82
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
               <span><img src={twitterIcon} alt="Twitter" className="float-right my-1 w-4 h-4"></img></span>Twitter 
               </h2>
-              
               <a className="text-indigo-400 leading-relaxed" href="https://twitter.com/KLinfeldt">
               twitter.com/KLinfeldt
               </a>

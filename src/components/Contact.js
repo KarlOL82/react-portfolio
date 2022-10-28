@@ -53,7 +53,7 @@ export default function Contact() {
               <span><img src={linkedinLogo} alt="Linkedin" className="float-right my-1 w-4 h-4"></img></span>Linkedin
               </h2>
               <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/karl-linfeldt-663513239/">
-              linkedin.com/in/karl-linfeldt
+              linkedin.com
               </a>
               
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">

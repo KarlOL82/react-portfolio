@@ -12,9 +12,8 @@ export default function About() {
             Javascript.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am currently a student at the University of Washington Coding Bootcamp and eager
+            to go to work as a developer. I will be graduating in November of 2022.
           </p>
           <div className="flex justify-center">
             <a

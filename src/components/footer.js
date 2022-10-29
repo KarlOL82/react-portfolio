@@ -53,8 +53,8 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              Linkedin
-              <img src={linkedinLogo} alt="Linkedin" className="float-right mx-1 w-6 h-6"></img>
+              
+              <img src={linkedinLogo} alt="Linkedin" className="float-right mx-1 w-8 h-8"></img>
             </a>
       </div>
 

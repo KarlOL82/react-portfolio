@@ -27,7 +27,7 @@ export default function Footer() {
         </a>
 
         <a
-          className="text-gray-300 dark:hover:text-gray-300/75"
+          className="text-gray-300 dark:hover:text-gray-100/75"
           href="https://github.com/KarlOL82"
           target="_blank"
           rel="noreferrer"

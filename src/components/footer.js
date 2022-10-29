@@ -48,13 +48,13 @@ export default function Footer() {
         </a>
 
         <a
-              className="text-white text-xl font-bold mt-1 transition hover:text-indigo-400/75 dark:text-white dark:hover:text-white/75"
+              className="text-white text-xl font-bold transition hover:text-indigo-400/75 dark:text-white dark:hover:text-white/75"
               href="https://www.linkedin.com/in/karl-linfeldt-663513239/"
               target="_blank"
               rel="noreferrer"
             >
               Linkedin
-              <img src={linkedinLogo} alt="Linkedin" className="float-right  mx-1 my-1 w-6 h-6"></img>
+              <img src={linkedinLogo} alt="Linkedin" className="float-right mx-1 w-6 h-6"></img>
             </a>
       </div>
 

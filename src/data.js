@@ -94,7 +94,8 @@ export const skills = [
     title: "JS Logo",
     description: "Javascript",
     image: jsLogo,
-    link: "https://www.javascript.com/",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    
   },
   {
     title: "HTML Logo",

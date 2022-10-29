@@ -54,7 +54,7 @@ export default function Footer() {
               rel="noreferrer"
             >
               
-              <img src={linkedinLogo} alt="Linkedin" className="float-right mx-1 w-8 h-8"></img>
+              <img src={linkedinLogo} alt="Linkedin" className="float-right w-8 h-8"></img>
             </a>
       </div>
 

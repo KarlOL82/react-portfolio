@@ -70,41 +70,49 @@ export const skills = [
     title: "Mongo DB Logo",
     description: "Mongo DB",
     image: mongoLogo,
+    link: "https://www.mongodb.com/",
   },
   {
     title: "Express Logo",
     description: "Express",
     image: expressLogo,
+    link: "https://www.npmjs.com/package/express",
   },
   {
     title: "React Logo",
     description: "React",
     image: ReactLogo,
+    link: "https://reactjs.org/",
   },
   {
     title: "Node Logo",
     description: "Node JS",
     image: nodeLogo,
+    link: "https://nodejs.org/en/about/",
   },
   {
     title: "JS Logo",
     description: "Javascript",
     image: jsLogo,
+    link: "https://www.javascript.com/",
   },
   {
     title: "HTML Logo",
     description: "HTML",
     image: htmlLogo,
+    link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
   },
   {
     title: "CSS Logo",
     description: "CSS",
     image: cssLogo,
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
     title: "Handlebars Logo",
     description: "Handlebars",
     image: hbLogo,
+    link: "https://www.npmjs.com/package/handlebars",
   },
 ];
 

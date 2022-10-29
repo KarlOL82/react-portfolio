@@ -33,7 +33,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed" href="klinfeldt@gmail.com">
+              <a className="text-indigo-400 leading-relaxed" href="mailto:klinfeldt@gmail.com&subject=Contact from Portfolio">
               klinfeldt@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -70,9 +70,9 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          <p className="leading-relaxed text-gray-200 mb-5">
+            Please reach out to me if you'd like to connect. I'm interested in employment and 
+            open-source collaboration.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-200">

@@ -1,32 +1,36 @@
 // import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-import "./pattern.css"
+import "./pattern.css";
 import githubLogo from "../images/githubLogo.svg";
-
-
 
 export default function Projects() {
   return (
-    <section id="projects" className="pattern text-gray-400 bg-gray-900 body-font">
+    <section
+      id="projects"
+      className="pattern text-gray-400 bg-gray-900 body-font"
+    >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Click on one of the images below to view the deployed Project.
-            For more projects, follow this link to
-            
-            
+            Click on one of the images below to view the deployed Project. For
+            more projects, follow this link to
           </p>
-          <a href="https://github.com/KarlOL82?tab=repositories" className="text-indigo-400 leading-relaxed">
+          <a
+            href="https://github.com/KarlOL82?tab=repositories"
+            className="text-indigo-400 leading-relaxed"
+          >
             My Github Repositories
           </a>
-          <a
-          href="https://github.com/KarlOL82?tab=repositories">
-            <img src={githubLogo} alt="Github" className="m-auto bg-white my-3 w-8 h-8 rounded-md"></img>
+          <a href="https://github.com/KarlOL82?tab=repositories">
+            <img
+              src={githubLogo}
+              alt="Github"
+              className="m-auto bg-white my-3 w-8 h-8 rounded-md"
+            ></img>
           </a>
         </div>
 
@@ -38,7 +42,7 @@ export default function Projects() {
               className="sm:w-1/2 w-100 min-h-300px p-4"
               target="_blank"
               rel="noreferrer"
-              >
+            >
               <div className="flex relative column-2">
                 <img
                   alt="Project Screenshot"

@@ -15,11 +15,12 @@ ___
 May 2022 – Present
 A full stack web development course based on Javascript and related technologies.  
   #### Subjects Covered  
-  -Javascript  
-  -HTML  
-  -CSS - CSS3, Bootstrap, Tailwind    
-  -MERN Stack (Mongo DB, Express, React, Node JS)  
-  -Handlebars
+  - Javascript  
+  - HTML  
+  - CSS - CSS3, Bootstrap, Tailwind    
+  - MERN Stack (Mongo DB, Express, React, Node JS)  
+  - Handlebars  
+  - Inquirer
 
 [Curriculum](https://bootcamp.uw.edu/coding/curriculum/)
 
@@ -27,11 +28,29 @@ ___
 
 # **Employment History**  
 
+___  
+
+## Asentria Corporation  
+
+October 2021 - Present  
+
+Contact: Josh Yu (206) 344-8800  
+
+Position: Supply Chain Specialist  
+
+- Tracks inbound products via ocean containers, air freight, and various parcel services.  
+- Oversees Iventory Operations including tracking, controls, requisitions, and variance resolution.  
+- Assigns and monitors tasks of the Inventory Clerk.  
+- Handles Procurement of third-party and domestic parts and equipment including ordering and purchasing, acquiring quotes from vendors for pricing and lead times, and keeping Outbound and Engineering departments informed as to delays or shortages.
+- Oversees warehousing of all products stored on site as well as two external storage facilities.  
+- Member of the Safety Commitee.  
+- Reports directly to Director of Procurement.  
+
 ___
 
 ## Amazon Fullfilment BFI4
 
-August 2017- June 2020
+August 2017 - June 2020
 
 Contact: Aaron Floyd (253) 432-9330
 
@@ -134,7 +153,7 @@ Position: Senior Dining Room Manager:
 
 - Directly oversees two assistant managers and one supervisor including development, training, and performance evaluations.
 
-Contact: Michele Beito  Michele.beito@anthonys.com  
+  
 
 ___
 

@@ -11,7 +11,7 @@ export default function Projects() {
     <section id="projects" className="pattern text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
+          
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
@@ -24,19 +24,25 @@ export default function Projects() {
           <a href="https://github.com/KarlOL82?tab=repositories" className="text-indigo-400 leading-relaxed">
             My Github Repositories
           </a>
-          <img src={githubLogo} alt="Github" className="m-auto bg-white float-right my-3 w-12 h-12 rounded-xl"></img>
+          <a
+          href="https://github.com/KarlOL82?tab=repositories">
+            <img src={githubLogo} alt="Github" className="m-auto bg-white my-3 w-8 h-8 rounded-md"></img>
+          </a>
         </div>
+
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4"
+              className="sm:w-1/2 w-100 min-h-300px p-4"
+              target="_blank"
+              rel="noreferrer"
               >
-              <div className="flex relative">
+              <div className="flex relative column-2">
                 <img
                   alt="Project Screenshot"
-                  className="absolute min-h-full rounded-md inset-0 drop-shadow-lg object-fill h-full w-full object-center"
+                  className="absolute min-h-300px rounded-md inset-0 h-full w-full drop-shadow-lg object-cover"
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

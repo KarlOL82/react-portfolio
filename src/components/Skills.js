@@ -21,7 +21,10 @@ export default function Skills() {
           <a
             href={skill.link}
             key={skill.image}
-            className="p-2 sm:w-1/2 w-full">
+            className="p-2 sm:w-1/2 w-full"
+            target="_blank"
+            rel="noreferrer">
+              
             <div key={skill} >
               <div className="bg-gray-500 rounded flex p-4 h-full items-center">
                 <img

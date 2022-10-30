@@ -108,6 +108,7 @@ export const skills = [
     description: "CSS",
     image: cssLogo,
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    
   },
   {
     title: "Handlebars Logo",

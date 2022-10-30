@@ -85,6 +85,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        
         <form
           
           name="contact"

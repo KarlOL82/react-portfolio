@@ -1,5 +1,6 @@
 import React from "react";
-import linkedinLogo from "../images/linkedinLogo.svg"; 
+import linkedinLogo from "../images/linkedinLogo.svg";
+import "./pattern.css" 
 
 export default function Footer() {
   return (
@@ -52,6 +53,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/karl-linfeldt-663513239/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Linkedin"
             >
               
               <img src={linkedinLogo} alt="Linkedin" className="float-right w-8 h-8"></img>

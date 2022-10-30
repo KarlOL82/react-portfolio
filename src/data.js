@@ -12,6 +12,7 @@ import mongoLogo from "./images/mongoLogo.svg";
 import expressLogo from "./images/expressLogo.svg";
 import ReactLogo from "./images/ReactLogo.svg";
 import nodeLogo from "./images/nodeLogo.svg";
+// import PageComponent from "../src/components/Modal"
 
 export const projects = [
   {

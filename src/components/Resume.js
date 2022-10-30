@@ -1,6 +1,7 @@
 import React from "react";
-// import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { resume } from "../data";
+import PageComponent from "./Modal"
+
 
 export default function Resume() {
   return (
@@ -8,7 +9,7 @@ export default function Resume() {
       <div className="container px-5 py-10 mx-auto text-center">
         {/* <UsersIcon className="w-10 inline-block mb-4" /> */}
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-          More Interesting and Relevant Text Coming Soon
+          Resume
         </h1>
         <div className="flex flex-wrap m-4">
           {resume.map((resume) => (
@@ -18,8 +19,8 @@ export default function Resume() {
                 <p className="leading-relaxed mb-6">{resume.quote}</p>
                 <div className="inline-flex items-center">
                   <img
-                    alt="testimonial"
-                    src={resume.image}
+                    alt="resume"
+                    src={PageComponent}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -39,3 +40,4 @@ export default function Resume() {
     </section>
   );
 }
+

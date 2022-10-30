@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import ReactDom from "react-dom";
 import ReactMarkdown from "react-markdown";
 import { useEffect } from "react";
 import "./ResumeText.md"
@@ -35,7 +35,7 @@ const Modal = () => {
                   </button>
                 </div>
                 <div className="PageComponent relative p-6 flex-auto">
-                <ReactMarkdown children={PageComponent.content} />
+                ReactDom.render(<ReactMarkdown children={PageComponent.content} />, document.body)
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button

@@ -10,7 +10,7 @@ import Resume from "./components/Resume";
 import Footer from "./components/footer";
 import Modal from "./components/Modal";
 
-
+// Component structure and layout for the app
 function App() {
   return (
     <main className="pattern text-gray-400 bg-gray-900 body-font">

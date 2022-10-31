@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { resume } from "../data";
 
+// Creates a modal which displays the resume when button event is triggered
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -40,12 +41,11 @@ const Modal = () => {
                     </span>
                   </button>
                 </div>
-                <div className="PageComponent relative p-6 overflow-auto">
+                <div className="PageComponent border-idigo-400 relative p-6 overflow-auto">
                   <div className="flex flex-wrap m-4">
                     {resume.map((resume) => (
                       <div className="p-4 md:w-full w-full">
                         <div className="bg-gray-900 bg-opacity-70 p-8 rounded">
-                          {/* <TerminalIcon className="block w-8 text-gray-500 mb-4" /> */}
                           <p className="leading-relaxed mb-6">{resume.quote}</p>
                           <div className="inline-flex items-center">
                             <span className="flex-grow flex flex-col pl-4">
@@ -71,7 +71,7 @@ const Modal = () => {
                     ))}
                   </div>
                 </div>
-                <div className="flex items-center justify-center p-6 border-t border-solid border-blueGray-200 rounded-b">
+                <div className="flex items-center justify-center p-6 border-t border-solid border-idigo-400 rounded-b">
                   <button
                     className="text-white bg-indigo-500 active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -79,14 +79,6 @@ const Modal = () => {
                   >
                     Close
                   </button>
-                  <button
-                    className="text-white bg-indigo-500 active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Submit
-                  </button>
-                  
                 </div>
               </div>
             </div>
@@ -95,9 +87,6 @@ const Modal = () => {
       ) : null}
     </>
   );
-  
 };
-
-
 
 export default Modal;

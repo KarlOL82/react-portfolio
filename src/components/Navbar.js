@@ -1,6 +1,7 @@
-// import { ArrowRightIcon } from "@heroicons/react/solid";
+
 import React from "react";
 
+// function to display the navbat at the top of the page
 export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">

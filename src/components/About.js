@@ -1,6 +1,7 @@
 import React from "react";
 import proPic from "./proPicR.png";
 
+// Function to render about section with image and links
 export default function About() {
   return (
     <section id="about">

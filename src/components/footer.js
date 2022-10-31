@@ -2,6 +2,7 @@ import React from "react";
 import linkedinLogo from "../images/linkedinLogo.svg";
 import "./pattern.css";
 
+// Function to render footer section with icons and links
 export default function Footer() {
   return (
     <footer

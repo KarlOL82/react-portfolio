@@ -4,6 +4,7 @@ import { projects } from "../data";
 import "./pattern.css";
 import githubLogo from "../images/githubLogo.svg";
 
+//Function to pull project data from data.js and map them over an html element with image links to deployed apps
 export default function Projects() {
   return (
     <section

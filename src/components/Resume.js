@@ -1,6 +1,7 @@
 import React from "react";
 import resume_portfolio from "../docs/Resume_portfolio.docx"
 
+// Renders text for resume section with option to view as read only .docx
 export default function Resume() {
   return (
     <section id="resume">

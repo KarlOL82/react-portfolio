@@ -12,8 +12,8 @@ import mongoLogo from "./images/mongoLogo.svg";
 import expressLogo from "./images/expressLogo.svg";
 import ReactLogo from "./images/ReactLogo.svg";
 import nodeLogo from "./images/nodeLogo.svg";
-// import PageComponent from "../src/components/Modal"
 
+// Stored data for the projects section
 export const projects = [
   {
     title: "Console Blog",
@@ -66,6 +66,7 @@ export const projects = [
   },
 ];
 
+// Stored data for the skills section
 export const skills = [
   {
     title: "Mongo DB Logo",
@@ -117,6 +118,7 @@ export const skills = [
   },
 ];
 
+// Stored data for the resume section
 export const resume = [
   {
     company: "Asentria Corporation",

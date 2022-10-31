@@ -3,6 +3,7 @@ import twitterIcon from "../images/twitterIcon.svg";
 import linkedinLogo from "../images/linkedinLogo.svg";
 import githubLogo from "../images/githubLogo.svg";
 
+// Function to render contact section with form, map, links, and info
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
@@ -39,6 +40,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
+            // Embedded Google map
             src="https://www.google.com/maps/embed/v1/place?q=19803+8th+Avenue+Northwest,+Shoreline,+WA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -87,7 +89,7 @@ export default function Contact() {
         </div>
         
         <form
-          
+          // renders contact form
           name="contact"
           onSubmit={handleSubmit}
           

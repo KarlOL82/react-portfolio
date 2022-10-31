@@ -64,6 +64,9 @@ const Modal = () => {
                               <span className="text-gray-200 text-sm">
                                 Contact: {resume.contact}
                               </span>
+                              <span className="text-gray-200 text-sm">
+                                Curriculum: <a href={resume.link}>https://bootcamp.uw.edu/coding/curriculum/</a>
+                              </span>
                             </span>
                           </div>
                         </div>

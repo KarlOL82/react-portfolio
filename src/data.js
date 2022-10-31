@@ -121,6 +121,13 @@ export const skills = [
 // Stored data for the resume section
 export const resume = [
   {
+    company: "University of Washington Coding Bootcamp ",
+    dates: "May 2022 to Present",
+    position: "Full Stack Web Development Student",
+    contact: "https://bootcamp.uw.edu/coding/curriculum/",
+    link: "https://bootcamp.uw.edu/coding/curriculum/",
+  },
+  {
     company: "Asentria Corporation",
     dates: "October 2021 - Present",
     position: "Supply Chain Specialist",

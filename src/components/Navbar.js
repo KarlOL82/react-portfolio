@@ -10,23 +10,21 @@ export default function Navbar() {
             Karl Linfeldt
           </a>
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-gray-200 justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-800 flex flex-wrap items-center justify-evenly text-gray-200 justify-center">
           <a href="#projects" className="mr-5 hover:text-indigo-400">
             Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-indigo-400">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-indigo-400">
+          <a href="#resume" className="mr-5 hover:text-indigo-400">
             Resume
           </a>
+          <a href="#contact" className="mr-5 hover:text-indigo-400">
+            Contact
+          </a>
         </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-white mt-4 md:mt-0">
-          Contact
-          
-        </a>
+        
       </div>
     </header>
   );

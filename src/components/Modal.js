@@ -32,10 +32,10 @@ const Modal = () => {
                     </a>
                   </h3>
                   <button
-                    className="bg-transparent border-0 text-black float-right"
+                    className="bg-transparent border-3 text-black float-right"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="text-white text-2xl opacity-3 h-8 w-6 text-xl block bg-gray-800 py-0 rounded-full">
+                    <span className="text-white text-2xl opacity-3 h-8 w-10 text-xl block bg-gray-800 py-0 rounded-md">
                       x
                     </span>
                   </button>
@@ -71,9 +71,9 @@ const Modal = () => {
                     ))}
                   </div>
                 </div>
-                <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                <div className="flex items-center justify-center p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
+                    className="text-white bg-indigo-500 active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
@@ -86,6 +86,7 @@ const Modal = () => {
                   >
                     Submit
                   </button>
+                  
                 </div>
               </div>
             </div>
@@ -94,6 +95,9 @@ const Modal = () => {
       ) : null}
     </>
   );
+  
 };
+
+
 
 export default Modal;

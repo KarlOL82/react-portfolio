@@ -108,7 +108,7 @@ export default function Footer() {
             </ul>
           </nav>
           <p className="mx-auto max-w-lg text-xs text-gray-300 dark:text-gray-400">
-            2022 Karl Linfeldt
+          <span class="mt-4 block"> &copy; 2022 Karl Linfeldt </span>
           </p>
         </div>
       </div>

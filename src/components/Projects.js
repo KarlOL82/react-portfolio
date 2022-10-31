@@ -23,10 +23,15 @@ export default function Projects() {
           <a
             href="https://github.com/KarlOL82?tab=repositories"
             className="text-indigo-400 leading-relaxed"
+            target="_blank"
+            rel="noreferrer"
           >
             My Github Repositories
           </a>
-          <a href="https://github.com/KarlOL82?tab=repositories">
+          <a href="https://github.com/KarlOL82?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+          >
             <img
               src={githubLogo}
               alt="Github"

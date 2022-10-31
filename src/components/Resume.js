@@ -1,4 +1,5 @@
 import React from "react";
+import resume_portfolio from "../docs/Resume_portfolio.docx"
 
 export default function Resume() {
   return (
@@ -11,6 +12,11 @@ export default function Resume() {
             Click below to view my employment history. I am a newcomer to the tech industry but have learned
             many useful skills in various fields that can make me a great addition to a team. 
           </p>
+      </div>
+      <div className="text-indigo-400 text-center py-6">
+        <a href={resume_portfolio}>
+          View resume as a basic Word document
+        </a>
       </div>
     </section>
   );

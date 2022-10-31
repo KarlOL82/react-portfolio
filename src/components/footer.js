@@ -63,7 +63,49 @@ export default function Footer() {
               ></img>
             </a>
           </div>
+          <nav aria-label="Footer Nav" class="border-gray-900 p-1">
+            <ul className="flex flex-wrap justify-center gap-6 text-sm font-bold">
+              <li>
+                <a
+                  className="text-white transition hover:text-gray-900/75"
+                  href="#projects"
+                  rel="noreferrer"
+                >
+                  Projects
+                </a>
+              </li>
 
+              <li>
+                <a
+                  className="text-white transition hover:text-gray-900/75"
+                  href="#skills"
+                  rel="noreferrer"
+                >
+                  Skills
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-gray-900/75"
+                  href="#resume"
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-gray-900/75"
+                  href="#contact"
+                  rel="noreferrer"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
           <p className="mx-auto max-w-lg text-xs text-gray-300 dark:text-gray-400">
             2022 Karl Linfeldt
           </p>

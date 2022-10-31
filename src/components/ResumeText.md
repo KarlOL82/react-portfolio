@@ -33,8 +33,7 @@ ___
 ## Asentria Corporation  
 
 October 2021 - Present  
-
-Contact: Josh Yu (206) 344-8800  
+  
 
 Position: Supply Chain Specialist  
 
@@ -44,15 +43,15 @@ Position: Supply Chain Specialist
 - Handles Procurement of third-party and domestic parts and equipment including ordering and purchasing, acquiring quotes from vendors for pricing and lead times, and keeping Outbound and Engineering departments informed as to delays or shortages.
 - Oversees warehousing of all products stored on site as well as two external storage facilities.  
 - Member of the Safety Commitee.  
-- Reports directly to Director of Procurement.  
+- Reports directly to Director of Procurement. 
+
+Contact: Josh Yu (206) 344-8800
 
 ___
 
 ## Amazon Fullfilment BFI4
 
 August 2017 - June 2020
-
-Contact: Aaron Floyd (253) 432-9330
 
 Position: Inbound Dock Clerk (Supervisor)
 
@@ -66,6 +65,8 @@ Responsible for overseeing Inbound Dock operations of the warehouse including:
   electric pallet jack, freight elevators, and Automated Guided Vehicles (AGV)
 - Making daily, hourly,  and weekly reports and sending to management and site Operations.
   Tracking key data to analyze site productivity and anticipating upcoming business needs.
+
+  Contact: Aaron Floyd (253) 432-9330
   
 ____
 

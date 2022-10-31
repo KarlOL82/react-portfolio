@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { resume } from "../data";
 
-
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -11,7 +10,6 @@ const Modal = () => {
           className="bg-indigo-400 text-black active:bg-indigo-700 font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
           type="button"
           onClick={() => setShowModal(true)}
-          
         >
           Expand Resume
         </button>
@@ -99,5 +97,3 @@ const Modal = () => {
 };
 
 export default Modal;
-
-

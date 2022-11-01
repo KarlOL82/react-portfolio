@@ -12,7 +12,7 @@ const Modal = () => {
           type="button"
           onClick={() => setShowModal(true)}
         >
-          Expand Resume
+          Display Resume
         </button>
       </div>
       {showModal ? (

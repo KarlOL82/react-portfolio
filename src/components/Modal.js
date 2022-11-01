@@ -17,7 +17,7 @@ const Modal = () => {
       </div>
       {showModal ? (
         <>
-          <div className="flex flex-start justify-center h-screen bg-gray-800 items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="flex flex-start justify-center h-screen backdrop-blur bg-opacity-30 bg-gray-800 items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-auto py-12 my-6 min-h-screen  mx-auto max-h-96 max-w-3xl">
               <div className="border-4 border-indigo-400 rounded-lg bg-gray-500 shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="flex overflow-auto items-start justify-between p-5 border-b border-solid border-indigo-400 rounded-t ">

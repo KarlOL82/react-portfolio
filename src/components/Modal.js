@@ -8,7 +8,7 @@ const Modal = () => {
     <>
       <div className="flex justify-center mx-auto">
         <button
-          className="bg-indigo-400 text-black text-2xl active:bg-indigo-700 font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+          className="bg-indigo-400 text-black text-2xl active:bg-indigo-700 font-bold px-6 py-3 rounded shadow hover:bg-indigo-500 outline-none focus:outline-none mr-1 mb-1"
           type="button"
           onClick={() => setShowModal(true)}
         >

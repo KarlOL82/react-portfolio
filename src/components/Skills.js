@@ -28,7 +28,7 @@ export default function Skills() {
             rel="noreferrer">
               
             <div key={skill} >
-              <div className="bg-gray-500 bg-opacity-80 rounded flex p-4 h-full items-center">
+              <div className="bg-gray-500 bg-opacity-80  hover:bg-opacity-100 rounded flex p-4 h-full items-center">
                 <img
                   src={skill.image}
                   alt="CSS"

@@ -22,7 +22,7 @@ export default function Projects() {
           </p>
           <a
             href="https://github.com/KarlOL82?tab=repositories"
-            className="text-indigo-400 leading-relaxed"
+            className="text-indigo-400 hover:text-indigo-500 leading-relaxed"
             target="_blank"
             rel="noreferrer"
           >

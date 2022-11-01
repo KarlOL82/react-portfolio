@@ -68,7 +68,7 @@ export default function Footer() {
             <ul className="flex flex-wrap justify-center gap-6 text-sm font-bold">
               <li>
                 <a
-                  className="text-white transition hover:text-gray-900/75"
+                  className="text-white transition hover:text-indigo-400/75"
                   href="#projects"
                   rel="noreferrer"
                 >
@@ -78,7 +78,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  className="text-white transition hover:text-gray-900/75"
+                  className="text-white transition hover:text-indigo-400/75"
                   href="#skills"
                   rel="noreferrer"
                 >
@@ -88,7 +88,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  className="text-white transition hover:text-gray-900/75"
+                  className="text-white transition hover:text-indigo-400/75"
                   href="#resume"
                   rel="noreferrer"
                 >
@@ -98,7 +98,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  className="text-white transition hover:text-gray-900/75"
+                  className="text-white transition hover:text-indigo-400/75"
                   href="#contact"
                   rel="noreferrer"
                 >
@@ -107,8 +107,8 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
-          <p className="mx-auto max-w-lg text-xs text-gray-300 dark:text-gray-400">
-          <span class="mt-4 block"> &copy; 2022 Karl Linfeldt </span>
+          <p className="mx-auto max-w-lg text-xs text-gray-300 hover:text-indigo-300 dark:text-gray-400">
+          <span class="mt-4 block"> &copy;<a href="#about"> 2022 Karl Linfeldt </a></span>
           </p>
         </div>
       </div>

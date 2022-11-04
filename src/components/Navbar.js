@@ -27,7 +27,7 @@ export default function Navbar() {
           </a>
           
         </nav>
-        <div className="flex py-3 gap-6 rounded-3xl dark:border-gray-700">
+        <div className="flex py-1 gap-6 rounded-3xl dark:border-gray-700">
             <a
               className="text-blue-500 hover:text-blue-500/75"
               href="https://twitter.com/KLinfeldt"

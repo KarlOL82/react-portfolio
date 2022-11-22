@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.41ac4db1.css",
-    "main.js": "/react-portfolio/static/js/main.1e848d7b.js",
+    "main.js": "/react-portfolio/static/js/main.9f21444c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/proPicR.png": "/react-portfolio/static/media/proPicR.08495e03f007bddac1db.png",
     "static/media/travelMoney.png": "/react-portfolio/static/media/travelMoney.a09d24e25ce2df6807b6.png",
@@ -10,7 +10,7 @@
     "static/media/regex.png": "/react-portfolio/static/media/regex.178258c9ff771199601c.png",
     "static/media/startScreen.png": "/react-portfolio/static/media/startScreen.ad812f5ade0aa153beea.png",
     "static/media/jate.png": "/react-portfolio/static/media/jate.573386638ee5ca3a8927.png",
-    "static/media/Resume_portfolio.docx": "/react-portfolio/static/media/Resume_portfolio.c99e708ac45c42ed6f93.docx",
+    "static/media/Resume_portfolio.docx": "/react-portfolio/static/media/Resume_portfolio.c2245a9dbc280ef98982.docx",
     "static/media/mongoLogo.svg": "/react-portfolio/static/media/mongoLogo.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/ReactLogo.svg": "/react-portfolio/static/media/ReactLogo.4e0c97009b885bfa75c5412262a46f5f.svg",
     "static/media/githubLogo.svg": "/react-portfolio/static/media/githubLogo.3c903c66b2c5334c8c0b80567c4ea422.svg",
@@ -24,11 +24,11 @@
     "static/media/cssLogo.svg": "/react-portfolio/static/media/cssLogo.4f50b33af1d2115e9ee75ed4b1570e17.svg",
     "static/media/htmlLogo.svg": "/react-portfolio/static/media/htmlLogo.69274ea277b1ee86ba50abd24b291122.svg",
     "main.41ac4db1.css.map": "/react-portfolio/static/css/main.41ac4db1.css.map",
-    "main.1e848d7b.js.map": "/react-portfolio/static/js/main.1e848d7b.js.map",
+    "main.9f21444c.js.map": "/react-portfolio/static/js/main.9f21444c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ac4db1.css",
-    "static/js/main.1e848d7b.js"
+    "static/js/main.9f21444c.js"
   ]
 }

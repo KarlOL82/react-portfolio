@@ -16,7 +16,7 @@ export default function Resume() {
       </div>
       <div className="text-indigo-400 text-center py-6">
         <a href={resume_portfolio}>
-          View resume as a basic Word document
+          View resume as a Word document
         </a>
       </div>
     </section>

@@ -13,8 +13,8 @@ export default function About() {
             Javascript.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am currently a student at the University of Washington Coding Bootcamp and eager
-            to go to work as a developer. I will be graduating in November of 2022.
+            Recent graduate of the University of Washington Coding Bootcamp and eager
+            to go to work as a developer. I completed my certificate in November 2022.
           </p>
           <div className="flex justify-center">
             <a

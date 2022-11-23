@@ -23,6 +23,7 @@ export const projects = [
       "An online blog site for devs to learn from their peers and share their knowledge of the industry.",
     image: consoleBlog,
     link: "https://crimson-badger.herokuapp.com/",
+    repo: "https://github.com/KarlOL82/techBlog"
   },
   {
     title: "Code Quiz",

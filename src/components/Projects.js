@@ -39,9 +39,10 @@ export default function Projects() {
             ></img>
           </a>
         </div>
-
-        <div className="flex flex-wrap -m-4">
+        
+        <div className="flex col-2 flex-wrap -m-4">
           {projects.map((project) => (
+            <>
             <a
               href={project.link}
               key={project.image}
@@ -66,6 +67,8 @@ export default function Projects() {
                 </div>
               </div>
             </a>
+              <a className="flex text-indigo-400" href={project.repo}>Source Code</a>
+            </>
           ))}
         </div>
       </div>

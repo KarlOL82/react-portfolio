@@ -7,7 +7,7 @@ import jate from "./images/jate.png";
 import cssLogo from "./images/cssLogo.svg";
 import jsLogo from "./images/jsLogo.svg";
 import htmlLogo from "./images/htmlLogo.svg";
-import hbLogo from "./images/hbLogo.svg";
+import mysqlLogo from "./images/mysqlLogo.svg";
 import mongoLogo from "./images/mongoLogo.svg";
 import expressLogo from "./images/expressLogo.svg";
 import ReactLogo from "./images/ReactLogo.svg";
@@ -111,10 +111,10 @@ export const skills = [
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
-    title: "Handlebars Logo",
-    description: "Handlebars",
-    image: hbLogo,
-    link: "https://www.npmjs.com/package/handlebars",
+    title: "MySQL Logo",
+    description: "MySQL",
+    image: mysqlLogo,
+    link: "https://www.mysql.com/",
   },
 ];
 

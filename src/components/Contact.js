@@ -15,10 +15,14 @@ export default function Contact() {
     emailjs.sendForm('service_4r21yyp', 'template_4tu40ci', form.current, 'kT0ZWuqBEo0IrgC8P')
       .then((result) => {
           console.log(result.text);
+          
       }, (error) => {
           console.log(error.text);
+          
       });
       window.location.reload();
+
+      
 
   };
   return (

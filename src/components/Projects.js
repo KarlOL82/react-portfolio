@@ -45,11 +45,11 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 min-h-300px p-4"
+              className="sm:w-1/2 flex flex-col items-center w-1/3 p-4"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="flex relative column-2">
+              <div className="flex w-full h-full relative column-2">
                 <img
                   alt="Project Screenshot"
                   className="absolute min-h-300px rounded-md inset-0 h-full w-full drop-shadow-lg object-cover"

@@ -13,8 +13,8 @@ export default function About() {
             Javascript.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Recent graduate of the University of Washington Coding Bootcamp and eager
-            to go to work as a developer. I completed my certificate in November 2022.
+            Full stack web developer with an emphasis on Javascript. I love working with React and the MERN stack
+            to build clean and useful code.
           </p>
           <div className="flex justify-center">
             <a

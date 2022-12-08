@@ -14,7 +14,8 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             Full stack web developer with an emphasis on Javascript. I love working with React and the MERN stack
-            to build clean and useful code.
+            to build clean and useful code. I also work with Node, Express, MySQL, HTML, CSS, Tailwind CSS,
+            Mongo DB, Inquirer, and Handlebars.
           </p>
           <div className="flex justify-center">
             <a

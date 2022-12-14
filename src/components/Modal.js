@@ -19,7 +19,7 @@ const Modal = () => {
         <>
           <div className="flex flex-start justify-center h-screen backdrop-blur bg-opacity-30 bg-gray-800 items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-auto py-12 my-6 min-h-screen  mx-auto max-h-96 max-w-3xl">
-              <div className="border-4 border-indigo-400 rounded-lg bg-gray-500 shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              <div className="border-4 border-indigo-400 rounded-lg bg-gray-500 shadow-lg relative flex flex-col w-full outline-none focus:outline-none">
                 <div className="flex overflow-auto items-start justify-between p-5 border-b border-solid border-indigo-400 rounded-t ">
                   <h3 className="text-2xl text-white font=semibold">
                     <p>Karl Oskar Linfeldt</p>
@@ -36,7 +36,7 @@ const Modal = () => {
                     className="bg-transparent border-3 text-black float-right"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="text-white text-2xl opacity-3 h-8 w-10 text-xl block bg-gray-800 py-0 rounded-md">
+                    <span className="text-white text-2xl opacity-3 h-8 w-10 block bg-gray-800 py-0 rounded-md">
                       x
                     </span>
                   </button>

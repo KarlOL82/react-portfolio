@@ -122,7 +122,7 @@ export const skills = [
 export const resume = [
   {
     company: "University of Washington Coding Bootcamp ",
-    dates: "May 2022 to Present",
+    dates: "Completed course and earned certificate in November 2022",
     position: "Full Stack Web Development Student",
     description: "A full stack web development course based on Javascript and related technologies. Other subjects covered include HTML, CSS, Mongo DB, Express, React, Node Js (MERN), Handlebars, MySQL, GraphQL, and others.",
     contact: "Admissions 206-501-4868",

@@ -13,7 +13,7 @@ export default function About() {
             Javascript.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Full stack web developer with an emphasis on Javascript. I love working with React and the MERN stack
+            Full stack web developer specializing in Javascript. I love working with React and the MERN stack
             to build clean and useful code. I also work with Node, Express, MySQL, HTML, CSS, Tailwind CSS,
             Mongo DB, Inquirer, and Handlebars.
           </p>

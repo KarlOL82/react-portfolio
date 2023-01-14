@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+                Email
               </h2>
               <a className="text-indigo-400 leading-relaxed" href="mailto:klinfeldt@gmail.com&subject=Contact from Portfolio">
               klinfeldt@gmail.com
@@ -78,7 +78,7 @@ export default function Contact() {
               </a>
               
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
+                Phone
               </h2>
               <p className="leading-relaxed">206-475-5452</p>
               
